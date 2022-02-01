@@ -5,7 +5,7 @@ const FunctionState = () => {
     const [counter, setCounter] = useState(0);
 
     const addOne = () => {
-        setCounter(counter + 1)
+        setCounter(prevCounter => prevCounter + 1)
     }
 
     return (
