@@ -45,7 +45,7 @@ const Todo = () => {
 
     return (
         <div>
-        <h1 className='text-center mt-2'>{todo.length} To-do</h1>
+            <h1 className='text-center mt-2'>{todo.length} To-do</h1>
             {warningMessage}
             <ul className='list-group list-unstyled'>
                 {todoList}
